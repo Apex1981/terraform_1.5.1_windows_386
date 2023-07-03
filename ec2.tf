@@ -27,7 +27,7 @@ resource "aws_instance" "ec2_locals_demo" {
 
 
 
-
+/* 
 resource "aws_instance" "ec2-demo2" {
   for_each = var.availability_zone
 
@@ -38,4 +38,4 @@ resource "aws_instance" "ec2-demo2" {
   tags = {
     Name = "DEMO-test-2 ${random_string.id.result}"
   }
-}  
+}   */
